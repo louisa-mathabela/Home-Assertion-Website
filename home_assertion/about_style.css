@@ -1,0 +1,33 @@
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: #ffffff;
+}
+
+.image-container {
+    flex: 1;
+    background: black;
+    height: 100%;
+}
+
+.main-container h1 {
+    flex: 1;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
